@@ -1,5 +1,6 @@
 
 <script setup>
+  import axios from 'axios';
 
   const fetchProtected = () => {
     console.log("fetch protected api endpoint.")
